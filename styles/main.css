@@ -1,0 +1,14 @@
+body {
+  background: #1b4c8c;
+}
+
+.form {
+  display: flex;
+}
+
+.btn {
+  background: #fdb2a4;
+  font-family: sans-serif;
+  border-radius: 3px;
+  margin-left: 10px;
+}
