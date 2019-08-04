@@ -10,13 +10,21 @@
   <body>
     <form class="form" action="">
       <label for="search"></label>
-      <input class="js-input" type="text" id="search" />
-      <button class="js-btn btn" type="button">Buscar</button>
+      <input
+        class="js-input"
+        type="text"
+        id="search"
+        placeholder="introduce el usuario"
+      />
+      <button class="js-btn btn" type="submit">Buscar</button>
     </form>
-    <section>
+    <section class="show_user">
       <p class="js-user_name"></p>
+      <div class="js-icon"></div>
       <img class="js-image" />
+
       <p class="js-repos"></p>
+      <p class="js-location"></p>
     </section>
     <script src="./scripts/main.js"></script>
   </body>

@@ -2,8 +2,10 @@
 
 const input = document.querySelector(".js-input");
 const img = document.querySelector(".js-image");
+const icon = document.querySelector(".js-icon");
 const repos = document.querySelector(".js-repos");
 const user = document.querySelector(".js-user_name");
+const city = document.querySelector(".js-location");
 
 function search(ev) {
   const userSearched = input.value;
@@ -18,6 +20,11 @@ function search(ev) {
       repos.innerHTML = `Número de repositorios: ${parseInt(
         data.public_repos
       )}`;
+      city.innerHTML = data.location;
+      icon.innerHTML = `
+        <a href="${url}">
+          <img class="icon" src="./images/github2.png" />
+        </a>`;
     });
 }
 
