@@ -6,6 +6,11 @@ body {
   display: flex;
 }
 
+.js-image {
+  max-width: 250px;
+  max-height: 250px;
+}
+
 .btn {
   background: #fdb2a4;
   font-family: sans-serif;
